@@ -54,10 +54,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/haiyanzhang/Desktop/代码/TP_DST
+CMAKE_SOURCE_DIR = /Users/haiyanzhang/code/TP-DST
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/haiyanzhang/Desktop/代码/TP_DST/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/haiyanzhang/code/TP-DST/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/IP_DST.dir/clean
 CMakeFiles/IP_DST.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IP_DST.dir/build.make CMakeFiles/IP_DST.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IP_DST.dir/build.make CMakeFiles/IP_DST.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/haiyanzhang/Desktop/代码/TP_DST/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target IP_DST"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/haiyanzhang/code/TP-DST/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target IP_DST"
 .PHONY : CMakeFiles/IP_DST.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/IP_DST.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haiyanzhang/Desktop/代码/TP_DST/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haiyanzhang/code/TP-DST/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/IP_DST.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haiyanzhang/Desktop/代码/TP_DST/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haiyanzhang/code/TP-DST/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/IP_DST.dir/rule
 
 # Convenience name for target.

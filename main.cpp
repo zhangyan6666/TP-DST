@@ -1,6 +1,6 @@
 #include <iostream>
-#include "graph.h"
-#include "graph.cpp"
+#include "Graph.h"
+#include "Graph.cpp"
 #include "DagGet.h"
 #include "DagGet.cpp"
 #include "Vertex.cpp"
@@ -23,15 +23,13 @@ int main() {
 
     //    g.printGraph();
 
-        DagWrapper d
-        w(g);
+        DagWrapper dw(g);
 
         dw.printStatistics();
 
         for (auto it = g.vertices.begin(); it != g.vertices.end(); ++it) {
             Vertex& v = it->second;
             cout << v.id << "scc is :"<< dw.getScc(v.id);
-
             cout << endl;
         }
 

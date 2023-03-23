@@ -3,4 +3,4 @@ project(IP_DST)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(IP_DST main.cpp)
+add_executable(IP_DST main.cpp util/point_guard.h)

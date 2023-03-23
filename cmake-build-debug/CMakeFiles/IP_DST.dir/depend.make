@@ -4,11 +4,10 @@
 CMakeFiles/IP_DST.dir/main.cpp.o: \
  ../DagGet.cpp \
  ../DagGet.h \
+ ../Graph.cpp \
  ../Graph.h \
  ../GraphUpdateObservable.h \
  ../GraphUpdateObserver.h \
  ../Vertex.cpp \
  ../Vertex.h \
- ../graph.cpp \
- ../graph.h \
  ../main.cpp
